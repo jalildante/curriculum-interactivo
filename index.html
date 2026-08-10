@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Isaac Jalil Romero Franco — Curriculum Interactivo</title>
+<meta name="description" content="Curriculum interactivo de Isaac Jalil Romero Franco — Business Intelligence, gestión de datos y coordinación operativa." />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<div class="bg-decor" aria-hidden="true"></div>
+
+<header class="hero" id="inicio">
+  <div class="hero-inner">
+    <p class="eyebrow">Curriculum interactivo</p>
+    <h1 id="profile-name">Isaac Jalil Romero Franco</h1>
+    <p class="contact" id="profile-contact"></p>
+    <p class="summary" id="profile-summary"></p>
+    <p class="goal" id="profile-goal"></p>
+    <nav class="pillnav" aria-label="Secciones">
+      <a href="#linea-tiempo">Experiencia</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#educacion">Educación</a>
+      <a href="#habitos">Hábitos</a>
+      <a href="#comentarios-info">Comentarios</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="skills" id="habilidades">
+    <h2>Habilidades</h2>
+    <ul class="skills-grid" id="skills-list"></ul>
+  </section>
+
+  <section class="timeline-section" id="linea-tiempo">
+    <h2>Experiencia laboral</h2>
+    <p class="section-hint">Haz clic en el logo de cualquier empresa para centrar su historia y ver los comentarios de esa etapa.</p>
+
+    <div class="timeline" id="timeline"></div>
+
+    <div class="focus-overlay" id="focus-overlay" hidden>
+      <div class="focus-card" id="focus-card"></div>
+    </div>
+  </section>
+
+  <section class="education" id="educacion">
+    <h2>Educación</h2>
+    <div class="education-list" id="education-list"></div>
+  </section>
+
+  <section class="habits" id="habitos">
+    <h2>Hábitos personales</h2>
+    <p id="habits-text"></p>
+  </section>
+
+  <section class="comments-info" id="comentarios-info">
+    <h2>Sobre los comentarios</h2>
+    <p>
+      En cada experiencia laboral de la línea de tiempo puedes dejar un comentario dejando tu nombre.
+      Los comentarios nuevos quedan pendientes de aprobación y solo se muestran públicamente cuando el
+      administrador (Isaac) los autoriza. La recepción de comentarios puede abrirse o cerrarse
+      temporalmente.
+    </p>
+  </section>
+
+</main>
+
+<footer>
+  <p>© <span id="year"></span> Isaac Jalil Romero Franco</p>
+  <a class="admin-link" href="admin.html">Panel de administrador</a>
+</footer>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "name": "curriculum-interactivo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Curriculum interactivo de Isaac Jalil Romero Franco con comentarios moderados vía Google Sheets.",
+  "dependencies": {
+    "google-auth-library": "^9.14.1",
+    "google-spreadsheet": "^4.1.4"
+  }
+}
