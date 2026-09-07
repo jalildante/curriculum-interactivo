@@ -19,7 +19,7 @@ export const PROFILE = {
     "cambiantes y fiabilidad en la entrega de resultados. Preparado para generar un impacto significativo en " +
     "entornos dinámicos.",
   goal:
-    "Objetivo actual: regresar a Jugos del Valle en una posición de Manejo de Datos en Business Intelligence.",
+    "Objetivo actual: Continuar preparandome profecionalmente en una posición de Manejo de Datos como Business Intelligence, para finalmente convertirme en un científico de datos.",
 };
 
 export const SKILLS = [
@@ -96,8 +96,21 @@ export const COMPANIES = [
     bullets: [
       "Gestión de Datos Maestros: soporte a los dashboards en Google Looker de una de las cuentas principales con operación de promotoría. Depuración y optimización de la información para su funcionamiento en la plataforma actual y migración a Power BI de cada módulo, innovando en nuevos análisis y crecimiento interactivo del análisis.",
       "Gestión de Proyectos: optimización de los KPIs actuales para mejorar tiempos de entrega y visualización de información, creando SharePoints colaborativos para la mejora en entrega de archivos y planes de trabajo.",
+      "Soporte a aplicación y base de datos.",
     ],
-    achievements: [],
+    achievements: ["Optimización de Infraestructura y Rendimiento de Base de Datos: Diagnosticó y resolvió de manera autónoma cuellos de botella críticos en el sistema mediante análisis guiado por Inteligencia Artificial.
+
+Diagnóstico: Identificó saturación de espacio en MySQL (92% de capacidad), consultas ineficientes a Looker Studio y solicitudes masivas de carga de datos que comprometían la estabilidad del sistema.
+
+Acciones:
+
+Reconfiguró la arquitectura de reportes integrando BigQuery con Looker Studio, pasando de extracciones completas a actualizaciones selectivas diarias.
+
+Habilitó logs de errores y alertas operativas para auditoría y prevención.
+
+Diagnosticó y ajustó parámetros en el flujo de carga (PHP) para restringir paquetes de subida sobredimensionados, eliminando la saturación sin impactar la operación.
+
+Impacto: Recuperó capacidad operativa para +200 usuarios concurrentes, redujo la latencia del sistema y optimizó el uso del almacenamiento en la base de datos."],
   },
   {
     id: "jugosdelvalle",
