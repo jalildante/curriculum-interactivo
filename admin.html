@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Panel de administrador — Curriculum</title>
+<link rel="stylesheet" href="styles.css" />
+<link rel="stylesheet" href="admin.css" />
+</head>
+<body class="admin-body">
+
+<header class="admin-header">
+  <h1>Panel de administrador</h1>
+  <p class="admin-sub">Aprueba, oculta o elimina comentarios. Abre o cierra la recepción de comentarios nuevos.</p>
+</header>
+
+<main class="admin-main">
+
+  <section id="login-screen" class="admin-card">
+    <h2>Acceso</h2>
+    <form id="login-form" class="admin-login-form">
+      <input type="password" id="admin-password" placeholder="Contraseña de administrador" required autofocus />
+      <button type="submit">Entrar</button>
+    </form>
+    <p class="admin-status" id="login-status"></p>
+  </section>
+
+  <section id="dashboard" hidden>
+    <div class="admin-card toggle-card">
+      <div>
+        <h2>Recepción de comentarios</h2>
+        <p class="admin-sub" id="toggle-desc">Consultando estado…</p>
+      </div>
+      <label class="switch">
+        <input type="checkbox" id="open-toggle" />
+        <span class="slider"></span>
+      </label>
+    </div>
+
+    <div class="admin-card">
+      <div class="admin-filters">
+        <h2>Comentarios</h2>
+        <select id="filter-select">
+          <option value="all">Todos</option>
+          <option value="pending">Pendientes</option>
+          <option value="approved">Aprobados</option>
+        </select>
+        <button id="refresh-btn" class="ghost-btn">Actualizar</button>
+      </div>
+      <div id="comments-container"><p class="admin-sub">Cargando…</p></div>
+    </div>
+  </section>
+
+</main>
+
+<script type="module" src="admin.js"></script>
+</body>
+</html>
