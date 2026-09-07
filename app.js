@@ -1,5 +1,6 @@
 import { PROFILE, SKILLS, EDUCATION, HABITS, COMPANIES, CLIENT_LOGOS } from "./data/resume.js";
 
+// Force rebuild: secondary logos HP + Lexmark
 const $ = (sel, ctx = document) => ctx.querySelector(sel);
 const $$ = (sel, ctx = document) => Array.from(ctx.querySelectorAll(sel));
 
