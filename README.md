@@ -109,3 +109,4 @@ Functions, y Vercel instala las dependencias (`google-spreadsheet`,
 instalado localmente para publicarlo. Si quieres probarlo en tu máquina antes de
 desplegar, instala Node.js LTS y corre `npm install -g vercel && vercel dev`
 dentro de esta carpeta.
+# Sun Sep  6 23:49:12     2026
