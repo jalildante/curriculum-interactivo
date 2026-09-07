@@ -19,7 +19,7 @@ export const PROFILE = {
     "cambiantes y fiabilidad en la entrega de resultados. Preparado para generar un impacto significativo en " +
     "entornos dinámicos.",
   goal:
-    "Objetivo actual: Continuar preparandome profecionalmente en una posición de Manejo de Datos como Business Intelligence, para finalmente convertirme en un científico de datos.",
+    "Objetivo: Posiciones en Business Intelligence y Gestión de Datos. Especialización continua en herramientas analíticas avanzadas y metodologías de Ciencia de Datos.",
 };
 
 export const SKILLS = [
@@ -94,11 +94,12 @@ export const COMPANIES = [
     logo: "assets/logos/marketpro.png",
     interactive: true,
     bullets: [
-      "Gestión de Datos Maestros: soporte a los dashboards en Google Looker de una de las cuentas principales con operación de promotoría. Depuración y optimización de la información para su funcionamiento en la plataforma actual y migración a Power BI de cada módulo, innovando en nuevos análisis y crecimiento interactivo del análisis.",
-      "Gestión de Proyectos: optimización de los KPIs actuales para mejorar tiempos de entrega y visualización de información, creando SharePoints colaborativos para la mejora en entrega de archivos y planes de trabajo.",
-      "Soporte a aplicación y base de datos.",
+      "Gestión de Datos Maestros: Soporte y optimización de dashboards en Google Looker y Power BI. Depuración de flujos de datos, migración de módulos e innovación en análisis interactivos.",
+      "Gestión de Proyectos: Optimización de KPIs y mejora del proceso de compartición de datos con implementación de SharePoints colaborativos para centralizar archivos y planes de trabajo con el cliente.",
     ],
-    achievements: [],
+    achievements: [
+      "Optimización de infraestructura de bases de datos: Identificó saturación de MySQL (92% capacidad) y consultas ineficientes. Migró arquitectura de reportes a BigQuery + Looker Studio (actualizaciones selectivas vs. extracciones completas), optimizó flujo de carga PHP y habilitó alertas operativas. Recuperó capacidad para +200 usuarios concurrentes y redujo latencia del sistema.",
+    ],
   },
   {
     id: "jugosdelvalle",
