@@ -6,6 +6,7 @@
 //           sitio generará automáticamente un ícono con las iniciales.
 //   - clients: logos NO interactivos que se muestran dentro de la tarjeta
 //              (ej. clientes atendidos, no empleadores)
+//   - secondaryLogo: logo adicional que muestra empresas/clientes de servicio
 // ============================================================================
 
 export const PROFILE = {
